@@ -48,6 +48,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["json-server", "npm:0.17.4"],\
             ["prettier", "npm:3.1.1"],\
             ["react", "npm:18.2.0"],\
+            ["react-day-picker", "virtual:5d9c662fffdb090b6406e1651123068e9268e6a51c5fe53014edcb384e73e38635916b92e7b13e73f07e0a494b768f45152d5d1109c950fa8d3fee7fb7818879#npm:8.9.1"],\
             ["react-dom", "virtual:5d9c662fffdb090b6406e1651123068e9268e6a51c5fe53014edcb384e73e38635916b92e7b13e73f07e0a494b768f45152d5d1109c950fa8d3fee7fb7818879#npm:18.2.0"],\
             ["react-scripts", "virtual:5d9c662fffdb090b6406e1651123068e9268e6a51c5fe53014edcb384e73e38635916b92e7b13e73f07e0a494b768f45152d5d1109c950fa8d3fee7fb7818879#npm:5.0.1"],\
             ["sass", "npm:1.69.5"],\
@@ -15858,6 +15859,32 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["react-day-picker", [\
+        ["npm:8.9.1", {\
+          "packageLocation": "./.yarn/cache/react-day-picker-npm-8.9.1-4171837254-1a609bd362.zip/node_modules/react-day-picker/",\
+          "packageDependencies": [\
+            ["react-day-picker", "npm:8.9.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:5d9c662fffdb090b6406e1651123068e9268e6a51c5fe53014edcb384e73e38635916b92e7b13e73f07e0a494b768f45152d5d1109c950fa8d3fee7fb7818879#npm:8.9.1", {\
+          "packageLocation": "./.yarn/__virtual__/react-day-picker-virtual-e49f55b14b/0/cache/react-day-picker-npm-8.9.1-4171837254-1a609bd362.zip/node_modules/react-day-picker/",\
+          "packageDependencies": [\
+            ["react-day-picker", "virtual:5d9c662fffdb090b6406e1651123068e9268e6a51c5fe53014edcb384e73e38635916b92e7b13e73f07e0a494b768f45152d5d1109c950fa8d3fee7fb7818879#npm:8.9.1"],\
+            ["@types/date-fns", null],\
+            ["@types/react", "npm:18.2.45"],\
+            ["date-fns", "npm:3.0.0"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/date-fns",\
+            "@types/react",\
+            "date-fns",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["react-dev-utils", [\
         ["npm:12.0.1", {\
           "packageLocation": "./.yarn/cache/react-dev-utils-npm-12.0.1-83ba06e3ee-2c6917e47f.zip/node_modules/react-dev-utils/",\
@@ -18688,6 +18715,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["json-server", "npm:0.17.4"],\
             ["prettier", "npm:3.1.1"],\
             ["react", "npm:18.2.0"],\
+            ["react-day-picker", "virtual:5d9c662fffdb090b6406e1651123068e9268e6a51c5fe53014edcb384e73e38635916b92e7b13e73f07e0a494b768f45152d5d1109c950fa8d3fee7fb7818879#npm:8.9.1"],\
             ["react-dom", "virtual:5d9c662fffdb090b6406e1651123068e9268e6a51c5fe53014edcb384e73e38635916b92e7b13e73f07e0a494b768f45152d5d1109c950fa8d3fee7fb7818879#npm:18.2.0"],\
             ["react-scripts", "virtual:5d9c662fffdb090b6406e1651123068e9268e6a51c5fe53014edcb384e73e38635916b92e7b13e73f07e0a494b768f45152d5d1109c950fa8d3fee7fb7818879#npm:5.0.1"],\
             ["sass", "npm:1.69.5"],\
