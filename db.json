@@ -3,11 +3,11 @@
     "id": 0,
     "date": "2025-05-17T13:00:00",
     "location": {
-      "lat": 37.28163212324522,
-      "lng": 127.0303329958705,
+      "lat": 37.521390758670385,
+      "lng": 126.90460997031566,
       "name": "웨딩그룹위더스 영등포 7층 펠리체",
       "address": "서울 영등포구 영중로 55\n웨딩그룹위더스 영등포",
-      "link": "https://map.kakao.com/?map_type=TYPE_MAP&target=car&rt=,,506715,1050669&rt1=&rt2=%EC%88%98%EC%9B%90%EB%85%B8%EB%B8%94%EB%A0%88%EC%8A%A4%EC%9B%A8%EB%94%A9%EC%BB%A8%EB%B2%A4%EC%85%98&rtIds=,9846217",
+      "link": "https://map.kakao.com/?map_type=TYPE_MAP&target=car&rt=%2C%2C478919%2C1117206&rt1=&rt2=%EC%9B%A8%EB%94%A9%EA%B7%B8%EB%A3%B9%EC%9C%84%EB%8D%94%EC%8A%A4+%EC%98%81%EB%93%B1%ED%8F%AC&rtIds=%2C&rtTypes=%2C",
       "waytocome": {
         "metro": [
           "5호선 영등포시장역 하차 4번 출구 도보 1분거리 내",
