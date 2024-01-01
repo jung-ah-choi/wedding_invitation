@@ -47,7 +47,8 @@
       "name": "최정아",
       "account": {
         "bankName": "농협",
-        "accountNumber": "352-0952-4669-11"
+        "accountNumber": "352-0952-4669-11",
+        "kakaopayLink": "https://qr.kakaopay.com/Ej7y7uuSM"
       },
       "phoneNumber": "01012341234",
       "parents": [
