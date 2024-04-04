@@ -6,7 +6,7 @@ import styles from './Map.module.scss'
 
 declare global {
   interface Window {
-    kakao: any
+    Kakao: any
   }
 }
 
@@ -23,8 +23,8 @@ function Map({ location }: { location: Location }) {
     document.head.appendChild(script)
 
     script.onload = () => {
-      window.kakao.maps.load(() => {
-        const position = new window.kakao.maps.LatLng(
+      window.Kakao.maps.load(() => {
+        const position = new window.Kakao.maps.LatLng(
           location.lat,
           location.lng,
         )
@@ -34,11 +34,11 @@ function Map({ location }: { location: Location }) {
           level: 4,
         }
 
-        const marker = new window.kakao.maps.Marker({
+        const marker = new window.Kakao.maps.Marker({
           position,
         })
 
-        const map = new window.kakao.maps.Map(mapContainer.current, options)
+        const map = new window.Kakao.maps.Map(mapContainer.current, options)
         marker.setMap(map)
       })
     }
