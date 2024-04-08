@@ -42,7 +42,7 @@ function ImageGallery({ images }: { images: string[] }) {
                 <img
                   src={generateImageUrl({
                     filename: src,
-                    format: 'webp',
+                    format: 'jpg',
                     option: 'w_240,h_240,q_auto,c_fill',
                   })}
                   alt="이미지"
