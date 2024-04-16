@@ -1,7 +1,8 @@
 @font-face {
   font-family: 'NanumNeuRisNeuRisCe';
   src:
-    url('../asset/fonts/NanumNeuRisNeuRisCe.woff2') format('woff2'),
-    url('../asset/fonts/NanumNeuRisNeuRisCe.woff') format('woff'),
-    url('../asset/fonts/NanumNeuRisNeuRisCe.ttf') format('truetype');
+    url('../asset/fonts/subset-NanumNeuRisNeuRisCe.woff2') format('woff2'),
+    url('../asset/fonts/subset-NanumNeuRisNeuRisCe.woff') format('woff'),
+    url('../asset/fonts/subset-NanumNeuRisNeuRisCe.ttf') format('truetype');
+  font-display: swap;
 }
