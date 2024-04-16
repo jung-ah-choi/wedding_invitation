@@ -21,11 +21,7 @@ const cx = classNames.bind(styles)
 
 function App() {
   // 1. wedding data
-  const { wedding, loading, error } = useWedding()
-
-  if (loading) {
-    return <FullScreenMessage type="loading" />
-  }
+  const { wedding, error } = useWedding()
 
   if (error) {
     return <FullScreenMessage type="error" />
